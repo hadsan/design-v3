@@ -1,1 +1,1 @@
-Hadsans REPO: https://github.com/hadsan/design-v3
+https://github.com/hadsan/design-v3
