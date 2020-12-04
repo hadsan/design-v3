@@ -4,12 +4,12 @@ Tagline: My portfolio
 Social:
     - title: Länk till sidans github repo.
       url: https://github.com/hadsan/design-v3
-      icon: github
+      icon: fab fa-github
     - title: Länk till kursens sida.
       url: https://dbwebb.se/kurser/design-v3
-      icon: book
+      icon: fas fa-book
     - title: Länk till kursens youtube.
       url: https://www.youtube.com/c/DbwebbSe/videos
-      icon: youtube
+      icon: fab fa-youtube
 
 ---

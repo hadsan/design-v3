@@ -8,7 +8,7 @@ Hej!
 
 <h2>Mitt namn är Hadsan Hassan.</h2>
 
-<img  id="me" src="./assets/img/me.png" alt="me" width="300"/>
+<img  class="me" src="./assets/img/me.png" alt="me" width="300"/>
 
 <div class="about-me">
 Jag har bott i Stehag, en mysig by i hjärtat av Skåne, för den största delen av mitt liv. Jag föddes dock i Munchen och bodde senare i Kanada.
