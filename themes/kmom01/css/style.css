@@ -58,7 +58,7 @@ body {
 }
 
 /* Main */
-.main {
+#main {
     flex: 1 0 auto;
     padding: 2em;
 }
