@@ -1,0 +1,86 @@
+// responsive.scss
+/*** BASIC LAYOUT: SMALL DEVICES ***/
+@media (max-width: 1103px) {
+    .container {
+        width: 300px;
+    }
+
+    .about-me {
+        width: 100%;
+    }
+
+    .me {
+        width: 300px;
+        margin-bottom: 2em;
+        float: none;
+    }
+}
+@media (max-width: 767px) {
+    .report div {
+        width: 100%;
+        display: inline-block;
+        padding: 3em;
+        color: $base-color;
+        font-family: 'Pacifico', cursive;
+        margin: 2em 2em 0 0;
+        background-color: $text-color;
+        border-radius: 25px;
+        text-align: center;
+    }
+
+    .site-header {
+        display: inline-block;
+    }
+
+    .title h1 {
+        font-size: 2em;
+    }
+
+    .title p {
+        font-size: 0.9em;
+    }
+
+    .logo {
+        margin: auto 0;
+    }
+
+    .logo
+    .logo img {
+        width: 80px;
+    }
+
+    .nav {
+        clear: both;
+        padding: 0;
+    }
+
+    .nav ul {
+        padding-bottom: 1em;
+    }
+
+    .nav ul li {
+        display: block;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .nav ul li a {
+        display: block;
+        padding: 0.5em 0;
+    }
+
+    .js .nav-toggle {
+        display: block;
+        float: right;
+        width: 2em;
+        margin: 0.6667em 0;
+        font-size: 1.5rem;
+        line-height: 2em;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .js .nav-toggle > * {
+        vertical-align: middle;
+    }
+}
