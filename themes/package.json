@@ -9,15 +9,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass kmom02/scss/style.scss kmom02/css/style.css --no-source-map",
-    "style-min": "sass kmom02/scss/style.scss kmom02/css/style.min.css --no-source-map --style compressed"
+    "style": "sass hadsan/scss/style.scss hadsan/css/style.css --no-source-map",
+    "style-min": "sass hadsan/scss/style.scss hadsan/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "normalize.css": "^8.0.1",
-    "sass": "^1.29.0",
+    "sass": "^1.30.0",
     "stylelint": "^13.8.0",
     "stylelint-config-sass-guidelines": "^7.1.0"
   },

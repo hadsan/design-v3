@@ -145,32 +145,7 @@ h1 {
 h2 {
     font-size: 1.5em;
 }
-/* report page */
-.report div {
-    width: 28%;
-    display: inline-block;
-    padding: 3em;
-    color: $base-color;
-    font-family: 'Pacifico', cursive;
-    margin: 2em 2em 0 0;
-    background-color: $text-color;
-    border-radius: 25px;
-    text-align: center;
-}
 
-.report div p {
-    font-family: 'Open Sans', sans-serif;
-}
-
-.report div a {
-    color: $accent-color1;
-    font-weight: bold;
-    font-size: 3em;
-}
-
-.report div a:hover {
-    color: $base-color;
-}
 /* Footer */
 .site-footer {
     text-decoration: none;
@@ -195,16 +170,4 @@ h2 {
 
 .social a:hover {
     color: $base-color;
-}
-
-.report div {
-    width: 28%;
-    display: inline-block;
-    padding: 3em;
-    color: $base-color;
-    font-family: 'Pacifico', cursive;
-    margin: 2em 2em 0 0;
-    background-color: $text-color;
-    border-radius: 25px;
-    text-align: center;
 }

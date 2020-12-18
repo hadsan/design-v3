@@ -6612,33 +6612,6 @@ h2 {
   font-size: 1.5em;
 }
 
-/* report page */
-.report div {
-  width: 28%;
-  display: inline-block;
-  padding: 3em;
-  color: #fff;
-  font-family: "Pacifico", cursive;
-  margin: 2em 2em 0 0;
-  background-color: #1c232c;
-  border-radius: 25px;
-  text-align: center;
-}
-
-.report div p {
-  font-family: "Open Sans", sans-serif;
-}
-
-.report div a {
-  color: #ff4c4d;
-  font-weight: bold;
-  font-size: 3em;
-}
-
-.report div a:hover {
-  color: #fff;
-}
-
 /* Footer */
 .site-footer {
   text-decoration: none;
@@ -6665,18 +6638,6 @@ h2 {
   color: #fff;
 }
 
-.report div {
-  width: 28%;
-  display: inline-block;
-  padding: 3em;
-  color: #fff;
-  font-family: "Pacifico", cursive;
-  margin: 2em 2em 0 0;
-  background-color: #1c232c;
-  border-radius: 25px;
-  text-align: center;
-}
-
 /*** BASIC LAYOUT: SMALL DEVICES ***/
 @media (max-width: 1103px) {
   .container {
@@ -6694,18 +6655,6 @@ h2 {
   }
 }
 @media (max-width: 767px) {
-  .report div {
-    width: 100%;
-    display: inline-block;
-    padding: 3em;
-    color: #fff;
-    font-family: "Pacifico", cursive;
-    margin: 2em 2em 0 0;
-    background-color: #1c232c;
-    border-radius: 25px;
-    text-align: center;
-  }
-
   .site-header {
     display: inline-block;
   }
@@ -6759,5 +6708,97 @@ h2 {
 
   .js .nav-toggle > * {
     vertical-align: middle;
+  }
+}
+/* report.scss */
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.kmom-box.project {
+  grid-column: span 3;
+}
+
+.kmom-box {
+  padding: 3em;
+  color: #fff;
+  margin: 2em 2em 0 0;
+  background-color: #1c232c;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.kmom-box h2 {
+  font-family: "Pacifico", cursive;
+}
+
+.landingpage .kmom-box a {
+  color: #ff4c4d;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.landingpage .kmom-box a:hover {
+  color: #fff;
+}
+
+.grid {
+  display: grid;
+  gap: 0 2em;
+}
+
+.main {
+  grid-template-columns: 200px auto;
+  grid-template-rows: 100px auto;
+}
+
+.kmom {
+  grid-column: 2/2;
+  grid-row: 1/3;
+}
+
+.side-bar {
+  border-radius: 25px;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.side-bar ul {
+  list-style: none;
+}
+
+.side-bar li {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 1.4em;
+}
+
+.side-bar i {
+  color: #ff4c4d;
+  margin-right: 0.5em;
+}
+
+@media (max-width: 767px) {
+  .kmom-box {
+    margin: 1em;
+  }
+
+  .kmom-box.project,
+.landingpage h1 {
+    grid-column: span 1;
+  }
+
+  .main {
+    grid-template-columns: 0 auto;
+  }
+
+  .side-bar {
+    display: none;
   }
 }

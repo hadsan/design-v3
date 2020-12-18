@@ -1,0 +1,94 @@
+/* report.scss */
+// LANDING PAGE
+.landingpage {
+    display: grid;
+    gap: 1em 1em; // top and right
+}
+// header spans over 3 columns instead of 1
+.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+// project column spans over 3 columns instead of 1
+.kmom-box.project {
+    grid-column: span 3;
+}
+
+.kmom-box {
+    padding: 3em;
+    color: $base-color;
+    margin: 2em 2em 0 0;
+    background-color: $text-color;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.kmom-box h2 {
+    font-family: 'Pacifico', cursive;
+}
+
+.landingpage .kmom-box a {
+    color: $accent-color1;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.landingpage .kmom-box a:hover {
+    color: $base-color;
+}
+// KMOM PAGE
+.grid {
+    display: grid;
+    gap: 0 2em; //right
+}
+
+.main {
+    grid-template-columns: 200px auto;
+    grid-template-rows: 100px auto;
+}
+
+.kmom {
+    grid-column: 2 / 2;
+    grid-row: 1 / 3;
+}
+
+.side-bar {
+    border-radius: 25px;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.side-bar ul {
+    list-style: none;
+}
+
+.side-bar li {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 1.4em;
+}
+
+.side-bar i {
+    color: $accent-color1;
+    margin-right: 0.5em;
+}
+// RESPONSIVITET
+// ___________________
+@media (max-width: 767px) {
+    .kmom-box {
+        margin: 1em;
+    }
+
+    .kmom-box.project,
+    .landingpage h1 {
+        grid-column: span 1;
+    }
+
+    .main {
+        grid-template-columns: 0 auto;
+    }
+
+    .side-bar {
+        display: none;
+    }
+}

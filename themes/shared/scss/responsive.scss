@@ -16,18 +16,6 @@
     }
 }
 @media (max-width: 767px) {
-    .report div {
-        width: 100%;
-        display: inline-block;
-        padding: 3em;
-        color: $base-color;
-        font-family: 'Pacifico', cursive;
-        margin: 2em 2em 0 0;
-        background-color: $text-color;
-        border-radius: 25px;
-        text-align: center;
-    }
-
     .site-header {
         display: inline-block;
     }
