@@ -1,8 +1,10 @@
 ---
-Title: KMOM01
+Title: kmom01
+Description: This is my kmom page.
+Template: kmom
 ---
 
-## KMOM01
+# KMOM01
 
 ### Har du jobbat med ramverk eller andra CMS:er tidigare?
 Jag har jobbat med Wordpress oc Shopify tidigare när jag skapade med en E-handelsida och en personlig blogg. Men med sådana komplicerade CMS:er är väldigt användbara men man får ingen förståelse för vad allting i ramverket gör och hur de hör ihop. Pico är en flatfile CMS vilket är mycket simplare och därför lättare att förstå.
